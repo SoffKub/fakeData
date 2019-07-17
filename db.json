@@ -1,19 +1,66 @@
+
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+  "customerSession": {
+    "firstName": "Laurense Andree Paulette Auntounette Reymonde",
+    "lastName": "Autard de Bragard",
+    "contact": {
+      "email": "bobby@bobbansson.bo",
+      "mobile": "0721561122",
+      "address": {
+        "houseNumber": "123",
+        "street": "TEST VÄGEN",
+        "city": "TESTSTAD",
+        "zipCode": "12345"
+      },
+      "spl": {
+        "id": 2449525,
+        "payoutAccount": "SE|3300|8205170395",
+        "agMandateStatus": "ACCEPTED",
+        "preferredPaymentMethod": {
+          "type": "CARD",
+          "number": "492500******0004"
+        },
+        "preferredPaymentMethod": {
+          "type": "AUTOGIRO",
+          "number": "SE|9795|7908942047",
+          "status": "ACCEPTED"
+        },
+        "preferredPaymentMethod": {
+          "type": "INVOICE"
+        }
+      },
+      "lotteryTickets": {
+        "availableToPurchase": 20,
+        "preferredAuthenticationType": "BANK_ID",
+        "lastLogin": "20171013T161250019",
+        "usedBankId": true
+      },
+      "agreementTexts": {
+        "regular": {
+          "invoice": {
+            "price": 201,
+            "participationStartText": "Ditt deltagande börjar 2018-02-12 om vi får din betalning senast 2018-01-31.",
+            "templateName": "okIfPaid"
+          },
+          "autogiroBlankett": {
+            "price": 170,
+            "participationStartText": "OBS! Ditt deltagande börjar 2018-01-12 om vi får din betalning senast 2017-12-31.",
+            "paymentOptionText": "Välj Autogiro via BankId eller kort om du vill delta redan 2018-01-08.",
+            "templateName": "next"
+          },
+          "autogiro": {
+            "price": 170,
+            "participationStartText": "Ditt deltagande börjar 2018-01-12 om vi får din betalning senast 2017-12-31.",
+            "templateName": "okIfPaid"
+          },
+          "card": {
+            "price": 170,
+            "participationStartText": "Ditt deltagande börjar 2018-01-08.",
+            "templateName": "paid"
+          }
+        }
+      }
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
   }
 }
+
